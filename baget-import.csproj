@@ -6,10 +6,13 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <PackageVersion>1.0.0-preview2</PackageVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <PackAsTool>true</PackAsTool>
-    <PackageVersion>1.0.0-preview1</PackageVersion>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <ToolCommandName>baget-import</ToolCommandName>
 
