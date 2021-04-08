@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baget-importer", "baget-importer.csproj", "{0BEEB75E-F0BB-4961-8DED-AD4696EA49CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baget-import", "baget-import.csproj", "{0BEEB75E-F0BB-4961-8DED-AD4696EA49CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

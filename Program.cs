@@ -10,7 +10,7 @@ using NuGet.Packaging.Core;
 using NuGet.Protocol;
 using NuGet.Protocol.Core.Types;
 
-namespace BaGet.Importer
+namespace BaGet.Import
 {
     /// <summary>
     /// Import packages from a NuGet server.
