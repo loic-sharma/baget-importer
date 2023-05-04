@@ -9,3 +9,9 @@ Import your packages from a NuGet server to your BaGet instance:
 
 # Changes
 This fork contains the ability to import packages in parallel batches controlled via `--batch-size <num>` and `--min-batch-interval <ms>`
+
+## scripts/migrate-unlisted.bash
+Help script for migrating unlisted packages
+
+1. Get a list of unlisted packages `sqlite3 --list baget.db "SELECT Id, Version from Packages as p where p.Listed == false" > packages.list`
+2. Run script `bash migrate-unlisted.bash packages.list http://baget-old.example.org https://baget-new.example.org`
